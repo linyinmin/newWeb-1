@@ -21,3 +21,22 @@ $color: #00cc99;
     background-color: $color;
   }
 }
+
+.title{
+  color: red;
+}
+
+@media (max-width:767px) {
+  .title{
+    color: blue;
+  }
+  
+}
+
+.containter{
+  // max-width: 1200px;
+}
+
+.title{
+  max-width: 1200px;
+}
